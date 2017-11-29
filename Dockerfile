@@ -22,6 +22,8 @@ RUN apk --no-cache add \
       jq \
       py-pip \
       python \
+      zip \
+      openssl \
       openssh &&\
     pip install --upgrade \
       awscli \
